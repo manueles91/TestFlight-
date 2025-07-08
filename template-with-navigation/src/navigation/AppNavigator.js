@@ -7,6 +7,8 @@ import SecondScreen from "../screens/SecondScreen";
 
 const MainStack = createNativeStackNavigator();
 
+const Services = () => <></>;
+
 const Main = () => {
   return (
     <MainStack.Navigator
@@ -16,6 +18,7 @@ const Main = () => {
     >
       <MainStack.Screen name="Home" component={Home} />
       <MainStack.Screen name="SecondScreen" component={SecondScreen} />
+      <MainStack.Screen name="Services" component={Services} />
     </MainStack.Navigator>
   );
 };
